@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>【警告】ウイルスが発見されました</title>
+  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta mame="viewport" content=width=device-width,initial-scale=1.0>
+</head>
+<body class="red darken-3 white-text">
+   <div class="container">
+　  <h1>警告</h1>
+    <h4>あなたの<span id="device"></span> 
+    からウイルスが発見されました</h4>
+    <p class="flow-text">このままではお使いの端末が破損する恐れがあります。</p>
+    <p class="flow-text"><span id="timer" style="font-size: 2em;"></span>秒以内に以下のリンクから対処してください。</p>
+    <a class="btn btn-large" href="https://search.rakuten.co.jp/search/mall/%E6%8A%97%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9+%E9%99%A4%E8%8F%8C%E6%B6%B2/">ウイルスを除去する</a>
+    <div id="alert" class="modal">
+      <div class="modal-content 
+      black-text">
+        <h4><img src="uirusu.jpg" alt="">警告</h4>
+        <p>お使いの端末からウイルスが検知されました。次のページからウイルスを除去してください。</p>
+      </div>
+      <div class="nodal-footer">
+        <button id="close" class="btn btn-large">
+        OK</button>
+    </div>
+   </div>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script src="myscript.js"></script>   
+   
+</body>
+</html>
